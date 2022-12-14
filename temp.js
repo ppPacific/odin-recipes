@@ -1,17 +1,27 @@
 
-//to be updated
-let result = '';
+
+const resultis = document.querySelector('#resultis');
+const content = document.createElement('div');
+content.classList.add('content');
+
+let result = 'haluhhhhhhhh';
+content.textContent = result;
+resultis.appendChild(content);
+
 
 
 
 const getCompChoice=()=>{
     let ans = Math.floor(Math.random() * 9)
     if (ans>=0 && ans<=2){
-        ans = 'Rock'; return ans
+        ans = 'Rock';
+        return ans;
     } else if (ans>=3 && ans<=5){
-        ans = 'Paper';return ans
+        ans = 'Paper';
+        return ans;
     } else if (ans>=6 && ans<=8){
-        ans = 'Scissors';return ans
+        ans = 'Scissors';
+        return ans;
     }
 }
 
@@ -55,11 +65,7 @@ const playRound=(playerSelection, computerSelection)=>{
             return result;
         }
     }
-    const resultis = document.querySelector('#resultis');
-    const content = document.createElement('div');
-    content.classList.add('content');
-    content.textContent = result;
-    resultis.appendChild(content);
+
 }
 
 

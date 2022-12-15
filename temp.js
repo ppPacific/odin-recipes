@@ -1,5 +1,5 @@
 
-
+//getelementbyid
 const resultis = document.querySelector('#resultis');
 const content = document.createElement('div');
 content.classList.add('content');

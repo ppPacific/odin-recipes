@@ -1,4 +1,4 @@
-
+//adding const
 //getelementbyid
 // const optionBtn = document.querySelectorAll('div.optionBtn button');
 // const roundResults = document.querySelector('#roundResults');

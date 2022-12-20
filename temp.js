@@ -5,6 +5,8 @@
 // const playerPoints = document.querySelector('#playerScore');
 // const computerPoints = document.querySelector('#computerScore');
 // const resetBtn = document.querySelector('#reset');
+//refresh page for new game
+//resetBtn.addEventListener('click',() => location.reload());
 const resultis = document.querySelector('#resultis');
 const content = document.createElement('div');
 content.classList.add('content');

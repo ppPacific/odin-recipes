@@ -5,7 +5,7 @@
 }
 .sub-menu {
     display: inline-flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 a{
     text-decoration: none;

@@ -10,7 +10,7 @@
 .sub-menu .box{
     text-align: center:
 }
-.box:nth {
+.box:nth-child(1) {
 }
 a{
     text-decoration: none;

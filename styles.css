@@ -12,6 +12,8 @@
 }
 .box:nth-child(1) {
 }
+.box:nth-child(2) {
+}
 a{
     text-decoration: none;
     //display: inline-block;
